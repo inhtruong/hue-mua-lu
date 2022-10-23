@@ -1,0 +1,424 @@
+/*!
+PA STYLE
+ */
+
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+.bot {
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.logo_bot {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.icon_fa {
+    margin-right: 10px;
+    color: #c73a3a;
+}
+
+.img_title {
+    font-size: 18px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px dashed #c73a3a;
+    border-top: 1px dashed #ccc;
+}
+
+.wrap-content>h1>span {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.text_sapo {
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 160%;
+    padding: 30px 0px;
+    text-align: justify;
+}
+
+.text_sapo span {
+    font-weight: bold;
+    color: #9f0012;
+    font: 70px/50px "Merriweather", Helvetica, Arial, sans-serif;
+}
+
+.text_sapo_2_bank {
+    background-color: #dedede;
+    width: 100%;
+    margin-bottom: 40px;
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0px 14px 45px -26px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 45px -26px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 45px -26px rgba(0, 0, 0, 0.75);
+    /* border-bottom: 5px solid #c50633; */
+    /* border-top: 3px solid #c50633; */
+}
+
+.text_sapo_2 {
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 160%;
+    padding: 20px 35px 20px 30px;
+    text-align: justify;
+    font-style: italic;
+    color: #020f33;
+    background: url(../images/bg2.jpg) repeat;
+}
+
+.text_sapo_2 span {
+    float: left;
+    padding: 4px 8px 0 0;
+    display: block;
+    font-weight: bold;
+    color: #020f33;
+    font-style: italic !important;
+    font: 70px/50px "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.fo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 0.3rem 0;
+    line-height: 180%;
+}
+
+.fo span {
+    font-weight: bold;
+    color: #000;
+    font: 50px/30px Times New Roman, Georgia, Times, serif;
+}
+
+.rex {
+    max-width: 100%;
+    height: auto;
+}
+
+.vac {
+    width: 100%;
+    float: left;
+    height: 20px;
+    border-bottom: 2px dashed #ccc;
+    margin: 0px 0px 30px 0px;
+}
+
+._lf {
+    text-align: left;
+}
+
+._rg {
+    text-align: right;
+}
+
+._ce {
+    text-align: center;
+}
+
+.isocial {
+    font-size: 160%;
+    padding: 3px;
+    margin: 5px;
+    color: #fff;
+    /* border: 1px dashed #ccc; */
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.textleft {
+    text-align: left !important;
+}
+
+.textright {
+    text-align: right !important;
+}
+
+.i_hd_bank {
+    padding: 5px 0px 10px 0px;
+    margin-top: 10px;
+    font-size: 18px !important;
+    color: #09380f;
+    border-bottom: 1px dashed #1c4f84;
+    margin-bottom: 20px;
+}
+
+.i_hd_bank2 {
+    padding: 5px 0px 10px 0px;
+    margin-top: 10px;
+    color: #000;
+    border-bottom: 2px dashed #1c4f84;
+    margin-bottom: 20px;
+    font-family: PlayfairDisplay;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.i_hd_bank i,
+.i_hd_bank2 i {
+    color: #1c4f84;
+}
+
+.i_hd {
+    padding: 3px;
+    margin-right: 10px;
+    color: #ccc;
+}
+
+#IM {
+    max-width: 95%;
+    height: auto;
+}
+
+.fullscreen-bg__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.padtop20 {
+    padding-top: 20px
+}
+
+.pa_box_bank {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.pa_box {
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border: 1px dashed #ddd;
+    border-left: 5px solid #c50633;
+    box-shadow: 1px 1px 3px #f1f1f1;
+    border-radius: 0px;
+    background-color: #f6f6f6;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 150%;
+    font-family: PlayfairDisplay;
+    font-size: 110%;
+}
+
+.pa_box span {
+    padding-left: 50px;
+    background: url('../images/icons/i_chat.png') no-repeat;
+    color: #0e1a61;
+    font-style: italic;
+}
+
+.detail-longform .wrap-content-tg {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+/* --------- BOX ------------- */
+
+.blockquote {
+    padding: 60px 80px 0px;
+    position: relative;
+    line-height: 150%;
+    font-family: PlayfairDisplay;
+    font-size: 110%;
+    text-align: justify;
+    /* background-color: #f6f6f6; */
+}
+
+.blockquote span {
+    padding-left: 40px;
+    background: url('../images/icons/i_chat.png') no-repeat;
+    color: #0e1a61;
+    font-style: italic;
+}
+
+.blockquote:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    content: "\f10d";
+    font-size: 150px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.blockquote3::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
+}
+
+.blockquote2 {
+    position: relative;
+    text-align: left;
+    padding: 1.2em 0 2em 38px;
+    border: none;
+    margin: 20px auto 20px;
+    max-width: 680px;
+    width: 100%;
+    display: block;
+    line-height: 150%;
+    font-family: PlayfairDisplay;
+    font-size: 110%;
+    text-align: justify;
+}
+
+.blockquote2:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: #b90000;
+    top: 0;
+    background: -moz-linear-gradient(top, #b90000 0%, #b90000 60%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, #b90000 0%, #b90000 60%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(to bottom,#66cc66 0%,#66cc66 60%,rgba(255,255,255,0) 100%); */
+}
+
+.blockquote2:before {
+    content: "\f10d";
+    font-family: "fontawesome";
+    font-size: 60px;
+    display: block;
+    margin-bottom: 0.8em;
+    font-weight: 400;
+    color: #b90000;
+}
+
+.blockquote2>span {
+    display: block;
+    font-size: 90%;
+    color: #0e1a61;
+    text-align: right;
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1.1em;
+    letter-spacing: 0;
+    font-style: italic;
+}
+
+.blockquote2>p:first-letter {
+    float: left;
+    padding: 4px 8px 0 0;
+    display: block;
+    font-weight: bold;
+    font: 70px/50px "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.boxout {
+    /* border: 5px solid #fff; */
+}
+
+/* owl-theme custom */
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #1c4f84;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 15px 7px;
+    background: #aaa;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+/* ------- RESPONSIVE -------- */
+
+@media (max-width: 640px) {
+    .logo_bot {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    address,
+    dl,
+    fieldset,
+    figure,
+    ol,
+    p,
+    pre,
+    ul {
+        line-height: 180%;
+    }
+    .i_hd_bank {
+        font-size: 12px !important;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .img_title {
+        font-size: 15px;
+        padding: 6px;
+        color: #000;
+        text-align: center;
+        font-style: italic;
+    }
+    .wrap-content>h1 {
+        font-size: 26px;
+        line-height: 150%;
+        font-weight: bold;
+        border-bottom: 1px dashed #ddd;
+        /* border-top: 2px dashed #ddd; */
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: #000;
+        text-align: center;
+    }
+    .wrap-content>h1>i {
+        font-size: 18px;
+    }
+    .wrap-content>h1>span {
+        background-color: #fff;
+        color: #00086c;
+        padding: 5px 8px;
+    }
+    .fo span {
+        float: left;
+        padding: 4px 8px 0 0;
+        display: block;
+        font-weight: bold;
+        color: #000;
+        font: 30px/10px Times New Roman, Georgia, Times, serif;
+    }
+    .blockquote {
+        padding: 50px 25px 10px;
+    }
+    .pa_box {
+        font-size: 120%;
+    }
+    .i_hd_bank2 {
+        font-size: 110%;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* END */
