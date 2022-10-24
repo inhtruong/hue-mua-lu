@@ -219,7 +219,7 @@ PA STYLE
 
 .pa_box span {
     padding-left: 50px;
-    background: url('../images/icons/i_chat.png') no-repeat;
+    /* background: url('../images/icons/i_chat.png') no-repeat; */
     color: #0e1a61;
     font-style: italic;
 }

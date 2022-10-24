@@ -1,10 +1,3 @@
-// document.getElementById("header").addEventListener("wheel", myFunction);
-
-// function myFunction() {
-//     let h = document.documentElement.clientHeight
-//     let w = document.documentElement.offsetWidth
-//     console.log(w);
-// }
 
 const ctx = document.getElementById("hueChart");
 const NUMBER_CFG = [
@@ -39,7 +32,6 @@ const lineMulti = {
   id: 'lineMulti',
   beforeDatasetsDraw(chart, args, pluginOptions) {
     const { ctx, chartArea: {top, bottom, left, right, width, height}, scales: {x, y} } = chart;
-    console.log({top, bottom, left, right, width, height});
 
     ctx.save();
 
@@ -128,7 +120,7 @@ const data2 = {
     },
     {
       label: 'Mực nước: 0.4m',
-      data: [{x: 1.05, y: 6, r: 10}],
+      data: [{x: 1, y: 5.8, r: 10}],
       backgroundColor: 'red'
     },
     {
@@ -143,12 +135,12 @@ const data2 = {
     },
     {
       label: 'Mực nước: 0.4m',
-      data: [{x: 4.8, y: 7.4, r: 10}],
+      data: [{x: 4.8, y: 7.2, r: 10}],
       backgroundColor: 'red'
     },
     {
       label: 'Mực nước: 0.3m',
-      data: [{x: 7.4, y: 1, r: 10}],
+      data: [{x: 7.4, y: 0.8, r: 10}],
       backgroundColor: 'red'
     },
     {
@@ -168,7 +160,7 @@ const data2 = {
     },
     {
       label: 'Mực nước: 0.5m',
-      data: [{x: 6.8, y: 0.7, r: 15}],
+      data: [{x: 6.8, y: 0.3, r: 15}],
       backgroundColor: 'red'
     }
   ]

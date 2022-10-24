@@ -1548,9 +1548,7 @@ article .box-des::after {
 }
 
 .detail-longform .bodysite {
-    background: url('../images/bg.jpg') !important;
     margin-top: -5px;
-    background: #fff
 }
 
 .detail-longform .header .logo {
@@ -1588,14 +1586,14 @@ article .box-des::after {
 }
 
 .detail-longform .wrap-content {
-    width: 55%;
+    width: 660px;
     margin: 0 auto;
     font-size: 22px;
     line-height: 150%
 }
 
 .detail-longform .wrap-content-sapo {
-    width: 60%;
+    width: 720px;
     margin: 0 auto;
     font-size: 22px;
     line-height: 150%;
